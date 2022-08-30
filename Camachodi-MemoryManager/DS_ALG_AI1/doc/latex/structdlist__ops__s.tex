@@ -1,0 +1,558 @@
+\hypertarget{structdlist__ops__s}{}\doxysection{dlist\+\_\+ops\+\_\+s Struct Reference}
+\label{structdlist__ops__s}\index{dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+s16($\ast$ \mbox{\hyperlink{structdlist__ops__s_ad76946a18e476f88333d0241fa1f7d75}{destroy}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)
+\begin{DoxyCompactList}\small\item\em Destroys the dlist and its data. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structdlist__ops__s_adc9a8588fbd9f7341bcf39078c1f349f}{soft\+Reset}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)
+\begin{DoxyCompactList}\small\item\em Soft resets dlist data. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structdlist__ops__s_afc9b362c8a114f49fe066c1bd1f59bcc}{reset}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)
+\begin{DoxyCompactList}\small\item\em Resets dlist data. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structdlist__ops__s_a0280f205209d26a89aa64a8332586bf5}{resize}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, u16 new\+\_\+size)
+\begin{DoxyCompactList}\small\item\em Resizes the capacity of the dlist. \end{DoxyCompactList}\item 
+u16($\ast$ \mbox{\hyperlink{structdlist__ops__s_a9d8773aaa06c149c6117e516e17151f8}{capacity}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)
+\begin{DoxyCompactList}\small\item\em Returns the maximum number of elements to store. \end{DoxyCompactList}\item 
+u16($\ast$ \mbox{\hyperlink{structdlist__ops__s_ada5b5e29f08e304598b6a6fc6c6ef814}{length}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)
+\begin{DoxyCompactList}\small\item\em Current number of elements. \end{DoxyCompactList}\item 
+bool($\ast$ \mbox{\hyperlink{structdlist__ops__s_af44b9fe2243d7609746c24d39ebdb806}{is\+Empty}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)
+\begin{DoxyCompactList}\small\item\em Know if dlist is empty. \end{DoxyCompactList}\item 
+bool($\ast$ \mbox{\hyperlink{structdlist__ops__s_ade01901c431c22099d77bf28d2152004}{is\+Full}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)
+\begin{DoxyCompactList}\small\item\em Know if dlist is full. \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structdlist__ops__s_a67d92edd275502a8f455600c2af454ad}{first}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)
+\begin{DoxyCompactList}\small\item\em Returns a reference to the first element of the dlist. \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structdlist__ops__s_a2212156dedb633aa09c2def418a2823b}{last}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)
+\begin{DoxyCompactList}\small\item\em Returns a reference to the last element of the dlist. \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structdlist__ops__s_a21adc750fa1e97d4dec5eedf8cdb3af5}{at}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, u16 position)
+\begin{DoxyCompactList}\small\item\em Returns a reference to the element at a given position. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structdlist__ops__s_aedb39589c65c66cbfec4bd176ee0cae8}{insert\+First}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, void $\ast$data, u16 bytes)
+\begin{DoxyCompactList}\small\item\em Inserts an element in the first free position of the dlist. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structdlist__ops__s_a926fe14a51689e2615155e83c5fbd39d}{insert\+Last}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, void $\ast$data, u16 bytes)
+\begin{DoxyCompactList}\small\item\em Inserts an element in the last free position of the dlist. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structdlist__ops__s_aca3763aa726ad3d8f46168cb869f28dd}{insert\+At}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, void $\ast$data, u16 bytes, u16 position)
+\begin{DoxyCompactList}\small\item\em Inserts an element at the given position of the dlist. \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structdlist__ops__s_a46db60ab1093cd49556252330cbff838}{extract\+First}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)
+\begin{DoxyCompactList}\small\item\em Extracts the first element of the dlist. \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structdlist__ops__s_a0bf108c117e1ba5397f6a20e572d0656}{extract\+Last}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)
+\begin{DoxyCompactList}\small\item\em Extracts the last element of the dlist. \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structdlist__ops__s_aaccb5ccca9e5ad008150048d9b4f50ad}{extract\+At}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, u16 position)
+\begin{DoxyCompactList}\small\item\em Extracts the element of the dlist at the given position. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structdlist__ops__s_a8fd7bd97e8fd3289415182c7731565b2}{concat}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, \mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$list\+\_\+src)
+\begin{DoxyCompactList}\small\item\em Concatenates two lists. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structdlist__ops__s_a33160affee986635318b3d5c05fb88bd}{traverse}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, void($\ast$callback)(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$))
+\begin{DoxyCompactList}\small\item\em Calls to a function from all elements of the dlist. \end{DoxyCompactList}\item 
+void($\ast$ \mbox{\hyperlink{structdlist__ops__s_af1bab6153847705050788d77f6a4f4da}{print}} )(\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)
+\begin{DoxyCompactList}\small\item\em Prints the features and content of the dlist. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{structdlist__ops__s_a21adc750fa1e97d4dec5eedf8cdb3af5}\label{structdlist__ops__s_a21adc750fa1e97d4dec5eedf8cdb3af5}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!at@{at}}
+\index{at@{at}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{at}{at}}
+{\footnotesize\ttfamily void$\ast$($\ast$ dlist\+\_\+ops\+\_\+s\+::at) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, u16 position)}
+
+
+
+Returns a reference to the element at a given position. 
+
+We need to Returns a reference to the element at a given position
+
+\begin{DoxyReturn}{Returns}
+NULL 
+
+node != NULL 
+
+node-\/$>$data\+\_\+ \+: NULL 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist \\
+\hline
+{\em position} & The position of the element \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_a9d8773aaa06c149c6117e516e17151f8}\label{structdlist__ops__s_a9d8773aaa06c149c6117e516e17151f8}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!capacity@{capacity}}
+\index{capacity@{capacity}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{capacity}{capacity}}
+{\footnotesize\ttfamily u16($\ast$ dlist\+\_\+ops\+\_\+s\+::capacity) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)}
+
+
+
+Returns the maximum number of elements to store. 
+
+Returns the maximum number of elements to store in the dlist
+
+\begin{DoxyReturn}{Returns}
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist which we need the capacity to return \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_a8fd7bd97e8fd3289415182c7731565b2}\label{structdlist__ops__s_a8fd7bd97e8fd3289415182c7731565b2}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!concat@{concat}}
+\index{concat@{concat}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{concat}{concat}}
+{\footnotesize\ttfamily s16($\ast$ dlist\+\_\+ops\+\_\+s\+::concat) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, \mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$list\+\_\+src)}
+
+
+
+Concatenates two lists. 
+
+We need to Concatenates two lists
+
+\begin{DoxyReturn}{Returns}
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Vectorsrc\+\_\+\+NULL 
+
+KError\+Code\+\_\+\+List\+\_\+concat\+\_\+tail\+NULL 
+
+k\+Error\+Code\+\_\+\+Ok 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The first dlist to concat \\
+\hline
+{\em list\+\_\+src} & The second dlist to concat \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_ad76946a18e476f88333d0241fa1f7d75}\label{structdlist__ops__s_ad76946a18e476f88333d0241fa1f7d75}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!destroy@{destroy}}
+\index{destroy@{destroy}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{destroy}{destroy}}
+{\footnotesize\ttfamily s16($\ast$ dlist\+\_\+ops\+\_\+s\+::destroy) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)}
+
+
+
+Destroys the dlist and its data. 
+
+Destroy the dlist an all of it data content
+
+\begin{DoxyReturn}{Returns}
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+
+k\+Error\+Code\+\_\+\+Ok 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist which we destroy \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_aaccb5ccca9e5ad008150048d9b4f50ad}\label{structdlist__ops__s_aaccb5ccca9e5ad008150048d9b4f50ad}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!extractAt@{extractAt}}
+\index{extractAt@{extractAt}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{extractAt}{extractAt}}
+{\footnotesize\ttfamily void$\ast$($\ast$ dlist\+\_\+ops\+\_\+s\+::extract\+At) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, u16 position)}
+
+
+
+Extracts the element of the dlist at the given position. 
+
+We need to Extracts the element of the dlist at the given position
+
+\begin{DoxyReturn}{Returns}
+NULL 
+
+dlist-\/$>$ops\+\_\+-\/$>$extract\+Last(dlist) 
+
+dlist-\/$>$ops\+\_\+-\/$>$extract\+First(dlist) 
+
+data 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist \\
+\hline
+{\em position} & The position of the element to extract \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_a46db60ab1093cd49556252330cbff838}\label{structdlist__ops__s_a46db60ab1093cd49556252330cbff838}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!extractFirst@{extractFirst}}
+\index{extractFirst@{extractFirst}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{extractFirst}{extractFirst}}
+{\footnotesize\ttfamily void$\ast$($\ast$ dlist\+\_\+ops\+\_\+s\+::extract\+First) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)}
+
+
+
+Extracts the first element of the dlist. 
+
+We need to Extracts the first element of the dlist
+
+\begin{DoxyReturn}{Returns}
+NULL 
+
+data 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_a0bf108c117e1ba5397f6a20e572d0656}\label{structdlist__ops__s_a0bf108c117e1ba5397f6a20e572d0656}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!extractLast@{extractLast}}
+\index{extractLast@{extractLast}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{extractLast}{extractLast}}
+{\footnotesize\ttfamily void$\ast$($\ast$ dlist\+\_\+ops\+\_\+s\+::extract\+Last) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)}
+
+
+
+Extracts the last element of the dlist. 
+
+We need to Extracts the last element of the dlist
+
+\begin{DoxyReturn}{Returns}
+NULL 
+
+dlist-\/$>$ops\+\_\+-\/$>$extract\+First(dlist) 
+
+data 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_a67d92edd275502a8f455600c2af454ad}\label{structdlist__ops__s_a67d92edd275502a8f455600c2af454ad}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!first@{first}}
+\index{first@{first}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{first}{first}}
+{\footnotesize\ttfamily void$\ast$($\ast$ dlist\+\_\+ops\+\_\+s\+::first) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)}
+
+
+
+Returns a reference to the first element of the dlist. 
+
+We need to know the first element of the dlist
+
+\begin{DoxyReturn}{Returns}
+NULL 
+
+dlist-\/$>$head\+\_\+-\/$>$data\+\_\+ 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_aca3763aa726ad3d8f46168cb869f28dd}\label{structdlist__ops__s_aca3763aa726ad3d8f46168cb869f28dd}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!insertAt@{insertAt}}
+\index{insertAt@{insertAt}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{insertAt}{insertAt}}
+{\footnotesize\ttfamily s16($\ast$ dlist\+\_\+ops\+\_\+s\+::insert\+At) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, void $\ast$data, u16 bytes, u16 position)}
+
+
+
+Inserts an element at the given position of the dlist. 
+
+We need to Inserts an element at the given position of the dlist
+
+\begin{DoxyReturn}{Returns}
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+dlist-\/$>$ops\+\_\+-\/$>$insert\+Last(dlist, data, bytes) 
+
+dlist-\/$>$ops\+\_\+-\/$>$insert\+First(dlist, data, bytes) 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Data\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+inser\+First\+\_\+\+Bytes\+Zero 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+
+k\+Error\+Code\+\_\+\+Memory 
+
+k\+Error\+Code\+\_\+\+Ok 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist \\
+\hline
+{\em data} & The data of the dlist \\
+\hline
+{\em bytes} & The size of the data dlist \\
+\hline
+{\em position} & The position of the dlist \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_aedb39589c65c66cbfec4bd176ee0cae8}\label{structdlist__ops__s_aedb39589c65c66cbfec4bd176ee0cae8}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!insertFirst@{insertFirst}}
+\index{insertFirst@{insertFirst}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{insertFirst}{insertFirst}}
+{\footnotesize\ttfamily s16($\ast$ dlist\+\_\+ops\+\_\+s\+::insert\+First) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, void $\ast$data, u16 bytes)}
+
+
+
+Inserts an element in the first free position of the dlist. 
+
+We need to insert an element on the first position of the dlist
+
+\begin{DoxyReturn}{Returns}
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Data\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+inser\+First\+\_\+\+Bytes\+Zero 
+
+k\+Error\+Code\+\_\+\+Memory 
+
+k\+Error\+Code\+\_\+\+Ok 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist \\
+\hline
+{\em data} & The data of the dlist \\
+\hline
+{\em bytes} & The size of the data dlist \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_a926fe14a51689e2615155e83c5fbd39d}\label{structdlist__ops__s_a926fe14a51689e2615155e83c5fbd39d}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!insertLast@{insertLast}}
+\index{insertLast@{insertLast}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{insertLast}{insertLast}}
+{\footnotesize\ttfamily s16($\ast$ dlist\+\_\+ops\+\_\+s\+::insert\+Last) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, void $\ast$data, u16 bytes)}
+
+
+
+Inserts an element in the last free position of the dlist. 
+
+We need to insert an element on the last position of the dlist
+
+\begin{DoxyReturn}{Returns}
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Data\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+inser\+First\+\_\+\+Bytes\+Zero 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+
+k\+Error\+Code\+\_\+\+Memory 
+
+k\+Error\+Code\+\_\+\+Ok 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist \\
+\hline
+{\em data} & The data of the dlist \\
+\hline
+{\em bytes} & The size of the data dlist \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_af44b9fe2243d7609746c24d39ebdb806}\label{structdlist__ops__s_af44b9fe2243d7609746c24d39ebdb806}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{isEmpty}{isEmpty}}
+{\footnotesize\ttfamily bool($\ast$ dlist\+\_\+ops\+\_\+s\+::is\+Empty) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)}
+
+
+
+Know if dlist is empty. 
+
+We need to know if dlist is empty
+
+\begin{DoxyReturn}{Returns}
+dlist-\/$>$length\+\_\+ == 0 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist which we need to dlist is full \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_ade01901c431c22099d77bf28d2152004}\label{structdlist__ops__s_ade01901c431c22099d77bf28d2152004}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!isFull@{isFull}}
+\index{isFull@{isFull}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{isFull}{isFull}}
+{\footnotesize\ttfamily bool($\ast$ dlist\+\_\+ops\+\_\+s\+::is\+Full) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)}
+
+
+
+Know if dlist is full. 
+
+We need to know if dlist is full
+
+\begin{DoxyReturn}{Returns}
+dlist-\/$>$length\+\_\+ == dlist-\/$>$capacity\+\_\+ 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist which we need to dlist is full \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_a2212156dedb633aa09c2def418a2823b}\label{structdlist__ops__s_a2212156dedb633aa09c2def418a2823b}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!last@{last}}
+\index{last@{last}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{last}{last}}
+{\footnotesize\ttfamily void$\ast$($\ast$ dlist\+\_\+ops\+\_\+s\+::last) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)}
+
+
+
+Returns a reference to the last element of the dlist. 
+
+We need to know the last element of the dlist
+
+\begin{DoxyReturn}{Returns}
+NULL 
+
+dlist-\/$>$tail\+\_\+-\/$>$data\+\_\+ 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_ada5b5e29f08e304598b6a6fc6c6ef814}\label{structdlist__ops__s_ada5b5e29f08e304598b6a6fc6c6ef814}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!length@{length}}
+\index{length@{length}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{length}{length}}
+{\footnotesize\ttfamily u16($\ast$ dlist\+\_\+ops\+\_\+s\+::length) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)}
+
+
+
+Current number of elements. 
+
+Current number of elements in the list, this must be less than the capacity
+
+\begin{DoxyReturn}{Returns}
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist which we need the length \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_af1bab6153847705050788d77f6a4f4da}\label{structdlist__ops__s_af1bab6153847705050788d77f6a4f4da}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!print@{print}}
+\index{print@{print}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{print}{print}}
+{\footnotesize\ttfamily void($\ast$ dlist\+\_\+ops\+\_\+s\+::print) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)}
+
+
+
+Prints the features and content of the dlist. 
+
+Prints the content of the dlist in a message in console
+
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist which information are printed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_afc9b362c8a114f49fe066c1bd1f59bcc}\label{structdlist__ops__s_afc9b362c8a114f49fe066c1bd1f59bcc}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!reset@{reset}}
+\index{reset@{reset}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{reset}{reset}}
+{\footnotesize\ttfamily s16($\ast$ dlist\+\_\+ops\+\_\+s\+::reset) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)}
+
+
+
+Resets dlist data. 
+
+Reset of all the list data
+
+\begin{DoxyReturn}{Returns}
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+
+KError\+Code\+\_\+\+List\+\_\+reset\+\_\+head\+NULL 
+
+k\+Error\+Code\+\_\+\+Ok 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist which we reset \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_a0280f205209d26a89aa64a8332586bf5}\label{structdlist__ops__s_a0280f205209d26a89aa64a8332586bf5}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!resize@{resize}}
+\index{resize@{resize}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{resize}{resize}}
+{\footnotesize\ttfamily s16($\ast$ dlist\+\_\+ops\+\_\+s\+::resize) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, u16 new\+\_\+size)}
+
+
+
+Resizes the capacity of the dlist. 
+
+Resizes the all capacity of the dlist, maybe some elements can be lost
+
+\begin{DoxyReturn}{Returns}
+NULL KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+NULL KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+
+NULL KError\+Code\+\_\+\+List\+\_\+resize\+\_\+head\+NULL 
+
+NULL k\+Error\+Code\+\_\+\+Ok 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist which we resize \\
+\hline
+{\em new\+\_\+size} & The List\textquotesingle{}s new size \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_adc9a8588fbd9f7341bcf39078c1f349f}\label{structdlist__ops__s_adc9a8588fbd9f7341bcf39078c1f349f}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!softReset@{softReset}}
+\index{softReset@{softReset}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{softReset}{softReset}}
+{\footnotesize\ttfamily s16($\ast$ dlist\+\_\+ops\+\_\+s\+::soft\+Reset) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist)}
+
+
+
+Soft resets dlist data. 
+
+Soft resets of all dlist data to 0
+
+\begin{DoxyReturn}{Returns}
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+
+k\+Error\+Code\+\_\+\+Ok 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist which we soft reset \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structdlist__ops__s_a33160affee986635318b3d5c05fb88bd}\label{structdlist__ops__s_a33160affee986635318b3d5c05fb88bd}} 
+\index{dlist\_ops\_s@{dlist\_ops\_s}!traverse@{traverse}}
+\index{traverse@{traverse}!dlist\_ops\_s@{dlist\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{traverse}{traverse}}
+{\footnotesize\ttfamily s16($\ast$ dlist\+\_\+ops\+\_\+s\+::traverse) (\mbox{\hyperlink{structadt__dllist}{DLList}} $\ast$dlist, void($\ast$callback)(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$))}
+
+
+
+Calls to a function from all elements of the dlist. 
+
+We need to Calls to a function from all elements of the dlist
+
+\begin{DoxyReturn}{Returns}
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+k\+Error\+Code\+\_\+callback 
+
+k\+Error\+Code\+\_\+\+Ok 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em dlist} & The dlist which elements are called \\
+\hline
+{\em Memory\+Node} & $\ast$ callback function to applied on a node \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/adana/\+One\+Drive/\+Escritorio/\+IA/2pa\+\_\+ta\+\_\+camachodi/\+DS\+\_\+\+ALG\+\_\+\+AI1/include/adt\+\_\+dlist.\+h\end{DoxyCompactItemize}

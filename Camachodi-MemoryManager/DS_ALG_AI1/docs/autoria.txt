@@ -1,0 +1,2 @@
+Adam: Memory Node, Stack, Vector. 
+Saul: Lista, Lista doble. 

@@ -1,0 +1,529 @@
+\hypertarget{structvector__ops__s}{}\doxysection{vector\+\_\+ops\+\_\+s Struct Reference}
+\label{structvector__ops__s}\index{vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+s16($\ast$ \mbox{\hyperlink{structvector__ops__s_ac2c1f45bf36d43485da42320931e6e13}{destroy}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)
+\begin{DoxyCompactList}\small\item\em Destroys the vector and its data. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structvector__ops__s_aab43b01a4267c5376d2eab88187d144d}{soft\+Reset}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)
+\begin{DoxyCompactList}\small\item\em Soft resets vector\textquotesingle{}s data. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structvector__ops__s_afbfa48aab8f188f9b77b0801d706df83}{reset}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)
+\begin{DoxyCompactList}\small\item\em Resets vector\textquotesingle{}s data. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structvector__ops__s_af141088cfb071609bba1f6e455ac652e}{resize}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, u16 new\+\_\+size)
+\begin{DoxyCompactList}\small\item\em Resizes the capacity of the vector. Some elements can be lost. \end{DoxyCompactList}\item 
+u16($\ast$ \mbox{\hyperlink{structvector__ops__s_a4d49e158e899468737a0946ca61d3faf}{capacity}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)
+\begin{DoxyCompactList}\small\item\em Returns the maximum number of elemets to store. \end{DoxyCompactList}\item 
+u16($\ast$ \mbox{\hyperlink{structvector__ops__s_a783ec9d6361e8cc10c615801c218b5b9}{length}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)
+\begin{DoxyCompactList}\small\item\em Current number of elements. \end{DoxyCompactList}\item 
+bool($\ast$ \mbox{\hyperlink{structvector__ops__s_a13137424b61ed2dfd348593cb791a93f}{is\+Empty}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)
+\begin{DoxyCompactList}\small\item\em Know if vector is empty. \end{DoxyCompactList}\item 
+bool($\ast$ \mbox{\hyperlink{structvector__ops__s_afc29ede25fcc55c7a8808c5a7e721ba5}{is\+Full}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)
+\begin{DoxyCompactList}\small\item\em Know if vector is full. \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structvector__ops__s_adbc71f35288dbac02f601bb43c7e4b7b}{first}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)
+\begin{DoxyCompactList}\small\item\em Returns a reference to the first element of the vector. \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structvector__ops__s_a00fb59b2f571b822630e153cc34f4ffd}{last}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)
+\begin{DoxyCompactList}\small\item\em Returns a reference to the last element of the vector. \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structvector__ops__s_a3752a6d033cafa9d35a4c075a1e5d510}{at}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, u16 position)
+\begin{DoxyCompactList}\small\item\em Returns a reference to the element at a given position. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structvector__ops__s_a3123b11e9f8a518bbe9ea367548c16f5}{insert\+First}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, void $\ast$data, u16 bytes)
+\begin{DoxyCompactList}\small\item\em Inserts an element in the first free position of the vector. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structvector__ops__s_adb2873a89f617bfb9e4ab4b14f5dfc82}{insert\+Last}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, void $\ast$data, u16 bytes)
+\begin{DoxyCompactList}\small\item\em Inserts an element in the last free position of the vector. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structvector__ops__s_a1aab01301d410f3f9fe4d42f01d32f7d}{insert\+At}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, void $\ast$data, u16 bytes, u16 position)
+\begin{DoxyCompactList}\small\item\em Inserts an element at the given position of the vector. \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structvector__ops__s_aec23d7b8b5052c9331a0defbb5d5b41b}{extract\+First}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)
+\begin{DoxyCompactList}\small\item\em Extracts the first element of the vector. \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structvector__ops__s_aa30114f8c5a2ded3db5c3811bf9942a7}{extract\+Last}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)
+\begin{DoxyCompactList}\small\item\em Extracts the last element of the vector. \end{DoxyCompactList}\item 
+void $\ast$($\ast$ \mbox{\hyperlink{structvector__ops__s_ad8bc0d0dccd7b0d824bce0007a4d8749}{extract\+At}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, u16 position)
+\begin{DoxyCompactList}\small\item\em Extracts the element of the vector at the given position. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structvector__ops__s_ae9c0cff1076fee8fb52f317875bcdd97}{concat}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, \mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector\+\_\+src)
+\begin{DoxyCompactList}\small\item\em Concatenates two vectors. \end{DoxyCompactList}\item 
+s16($\ast$ \mbox{\hyperlink{structvector__ops__s_adc9ce5f0f1f3e4297ea601b6653ab1b3}{traverse}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, void($\ast$callback)(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$))
+\begin{DoxyCompactList}\small\item\em Calls to a function from all elements of the vector. \end{DoxyCompactList}\item 
+void($\ast$ \mbox{\hyperlink{structvector__ops__s_a692547561efc4dae53d7531491902768}{print}} )(\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)
+\begin{DoxyCompactList}\small\item\em Prints the features and content of the vector. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{structvector__ops__s_a3752a6d033cafa9d35a4c075a1e5d510}\label{structvector__ops__s_a3752a6d033cafa9d35a4c075a1e5d510}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!at@{at}}
+\index{at@{at}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{at}{at}}
+{\footnotesize\ttfamily void$\ast$($\ast$ vector\+\_\+ops\+\_\+s\+::at) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, u16 position)}
+
+
+
+Returns a reference to the element at a given position. 
+
+We need to Returns a reference to the element at a given position
+
+\begin{DoxyReturn}{Returns}
+Return a reference of the vector in a given position 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector \\
+\hline
+{\em position} & The position of the element \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_a4d49e158e899468737a0946ca61d3faf}\label{structvector__ops__s_a4d49e158e899468737a0946ca61d3faf}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!capacity@{capacity}}
+\index{capacity@{capacity}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{capacity}{capacity}}
+{\footnotesize\ttfamily u16($\ast$ vector\+\_\+ops\+\_\+s\+::capacity) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)}
+
+
+
+Returns the maximum number of elemets to store. 
+
+Returns the maximum number of elemets to store
+
+\begin{DoxyReturn}{Returns}
+The maximun number of elements 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector which we need the capacity \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_ae9c0cff1076fee8fb52f317875bcdd97}\label{structvector__ops__s_ae9c0cff1076fee8fb52f317875bcdd97}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!concat@{concat}}
+\index{concat@{concat}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{concat}{concat}}
+{\footnotesize\ttfamily s16($\ast$ vector\+\_\+ops\+\_\+s\+::concat) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, \mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector\+\_\+src)}
+
+
+
+Concatenates two vectors. 
+
+We need to Concatenates two vectors
+
+\begin{DoxyReturn}{Returns}
+Return the concatenated vector 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The fisrt vector to concat \\
+\hline
+{\em vector\+\_\+src} & The second vector to concat \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_ac2c1f45bf36d43485da42320931e6e13}\label{structvector__ops__s_ac2c1f45bf36d43485da42320931e6e13}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!destroy@{destroy}}
+\index{destroy@{destroy}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{destroy}{destroy}}
+{\footnotesize\ttfamily s16($\ast$ vector\+\_\+ops\+\_\+s\+::destroy) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)}
+
+
+
+Destroys the vector and its data. 
+
+Destroy the vector an all of it data content
+
+\begin{DoxyReturn}{Returns}
+NULL exception or ok 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector which we destroy \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_ad8bc0d0dccd7b0d824bce0007a4d8749}\label{structvector__ops__s_ad8bc0d0dccd7b0d824bce0007a4d8749}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!extractAt@{extractAt}}
+\index{extractAt@{extractAt}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{extractAt}{extractAt}}
+{\footnotesize\ttfamily void$\ast$($\ast$ vector\+\_\+ops\+\_\+s\+::extract\+At) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, u16 position)}
+
+
+
+Extracts the element of the vector at the given position. 
+
+We need to Extracts the element of the vector at the given position
+
+\begin{DoxyReturn}{Returns}
+Return a reference to the removed data 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector \\
+\hline
+{\em position} & The position of the element to extract \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_aec23d7b8b5052c9331a0defbb5d5b41b}\label{structvector__ops__s_aec23d7b8b5052c9331a0defbb5d5b41b}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!extractFirst@{extractFirst}}
+\index{extractFirst@{extractFirst}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{extractFirst}{extractFirst}}
+{\footnotesize\ttfamily void$\ast$($\ast$ vector\+\_\+ops\+\_\+s\+::extract\+First) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)}
+
+
+
+Extracts the first element of the vector. 
+
+We need to Extracts the first element of the vector
+
+\begin{DoxyReturn}{Returns}
+Return a reference to the removed data 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Data\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+inser\+First\+\_\+\+Bytes\+Zero 
+
+KError\+Code\+\_\+\+Vector\+\_\+inser\+First\+\_\+\+No\+Mem 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_aa30114f8c5a2ded3db5c3811bf9942a7}\label{structvector__ops__s_aa30114f8c5a2ded3db5c3811bf9942a7}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!extractLast@{extractLast}}
+\index{extractLast@{extractLast}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{extractLast}{extractLast}}
+{\footnotesize\ttfamily void$\ast$($\ast$ vector\+\_\+ops\+\_\+s\+::extract\+Last) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)}
+
+
+
+Extracts the last element of the vector. 
+
+We need to Extracts the last element of the vector
+
+\begin{DoxyReturn}{Returns}
+Return a reference to the removed data 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_adbc71f35288dbac02f601bb43c7e4b7b}\label{structvector__ops__s_adbc71f35288dbac02f601bb43c7e4b7b}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!first@{first}}
+\index{first@{first}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{first}{first}}
+{\footnotesize\ttfamily void$\ast$($\ast$ vector\+\_\+ops\+\_\+s\+::first) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)}
+
+
+
+Returns a reference to the first element of the vector. 
+
+We need to know the first element of the vector
+
+\begin{DoxyReturn}{Returns}
+Return a reference to the first element of the vector 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_a1aab01301d410f3f9fe4d42f01d32f7d}\label{structvector__ops__s_a1aab01301d410f3f9fe4d42f01d32f7d}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!insertAt@{insertAt}}
+\index{insertAt@{insertAt}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{insertAt}{insertAt}}
+{\footnotesize\ttfamily s16($\ast$ vector\+\_\+ops\+\_\+s\+::insert\+At) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, void $\ast$data, u16 bytes, u16 position)}
+
+
+
+Inserts an element at the given position of the vector. 
+
+We need to Inserts an element at the given position of the vector
+
+\begin{DoxyReturn}{Returns}
+Return Null exception or ok 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Data\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+inser\+First\+\_\+\+Bytes\+Zero 
+
+KError\+Code\+\_\+\+Vector\+\_\+inser\+First\+\_\+\+No\+Mem 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector \\
+\hline
+{\em data} & The data of the vector \\
+\hline
+{\em bytes} & The size of the data´s vector \\
+\hline
+{\em position} & The position of the vector \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_a3123b11e9f8a518bbe9ea367548c16f5}\label{structvector__ops__s_a3123b11e9f8a518bbe9ea367548c16f5}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!insertFirst@{insertFirst}}
+\index{insertFirst@{insertFirst}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{insertFirst}{insertFirst}}
+{\footnotesize\ttfamily s16($\ast$ vector\+\_\+ops\+\_\+s\+::insert\+First) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, void $\ast$data, u16 bytes)}
+
+
+
+Inserts an element in the first free position of the vector. 
+
+We need to insert an element on the first position of the vector
+
+\begin{DoxyReturn}{Returns}
+Return Null exception or ok 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector \\
+\hline
+{\em data} & The data of the vector \\
+\hline
+{\em bytes} & The size of the data´s vector \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_adb2873a89f617bfb9e4ab4b14f5dfc82}\label{structvector__ops__s_adb2873a89f617bfb9e4ab4b14f5dfc82}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!insertLast@{insertLast}}
+\index{insertLast@{insertLast}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{insertLast}{insertLast}}
+{\footnotesize\ttfamily s16($\ast$ vector\+\_\+ops\+\_\+s\+::insert\+Last) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, void $\ast$data, u16 bytes)}
+
+
+
+Inserts an element in the last free position of the vector. 
+
+We need to insert an element on the last position of the vector
+
+\begin{DoxyReturn}{Returns}
+Return Null exception or ok 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Data\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+inser\+First\+\_\+\+Bytes\+Zero 
+
+KError\+Code\+\_\+\+Vector\+\_\+inser\+First\+\_\+\+No\+Mem 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector \\
+\hline
+{\em data} & The data of the vector \\
+\hline
+{\em bytes} & The size of the data´s vector \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_a13137424b61ed2dfd348593cb791a93f}\label{structvector__ops__s_a13137424b61ed2dfd348593cb791a93f}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{isEmpty}{isEmpty}}
+{\footnotesize\ttfamily bool($\ast$ vector\+\_\+ops\+\_\+s\+::is\+Empty) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)}
+
+
+
+Know if vector is empty. 
+
+We need to know if vector is empty
+
+\begin{DoxyReturn}{Returns}
+Return true if lenght = 0 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector which we need to vector is full \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_afc29ede25fcc55c7a8808c5a7e721ba5}\label{structvector__ops__s_afc29ede25fcc55c7a8808c5a7e721ba5}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!isFull@{isFull}}
+\index{isFull@{isFull}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{isFull}{isFull}}
+{\footnotesize\ttfamily bool($\ast$ vector\+\_\+ops\+\_\+s\+::is\+Full) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)}
+
+
+
+Know if vector is full. 
+
+We need to know if vector is full
+
+\begin{DoxyReturn}{Returns}
+Return true if lenght == capacity 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector which we need to vector is full \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_a00fb59b2f571b822630e153cc34f4ffd}\label{structvector__ops__s_a00fb59b2f571b822630e153cc34f4ffd}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!last@{last}}
+\index{last@{last}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{last}{last}}
+{\footnotesize\ttfamily void$\ast$($\ast$ vector\+\_\+ops\+\_\+s\+::last) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)}
+
+
+
+Returns a reference to the last element of the vector. 
+
+We need to know the lastelement of the vector
+
+\begin{DoxyReturn}{Returns}
+Return a reference to the last element of the vector 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_a783ec9d6361e8cc10c615801c218b5b9}\label{structvector__ops__s_a783ec9d6361e8cc10c615801c218b5b9}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!length@{length}}
+\index{length@{length}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{length}{length}}
+{\footnotesize\ttfamily u16($\ast$ vector\+\_\+ops\+\_\+s\+::length) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)}
+
+
+
+Current number of elements. 
+
+Current number of elements ($<$= capacity)
+
+\begin{DoxyReturn}{Returns}
+The current number of elements 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector which we need the leght \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_a692547561efc4dae53d7531491902768}\label{structvector__ops__s_a692547561efc4dae53d7531491902768}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!print@{print}}
+\index{print@{print}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{print}{print}}
+{\footnotesize\ttfamily void($\ast$ vector\+\_\+ops\+\_\+s\+::print) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)}
+
+
+
+Prints the features and content of the vector. 
+
+Prints the features and content of the vector
+
+\begin{DoxyReturn}{Returns}
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+k\+Error\+Code\+\_\+callback 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector which information are printed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_afbfa48aab8f188f9b77b0801d706df83}\label{structvector__ops__s_afbfa48aab8f188f9b77b0801d706df83}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!reset@{reset}}
+\index{reset@{reset}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{reset}{reset}}
+{\footnotesize\ttfamily s16($\ast$ vector\+\_\+ops\+\_\+s\+::reset) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)}
+
+
+
+Resets vector\textquotesingle{}s data. 
+
+Resets of all vector data
+
+\begin{DoxyReturn}{Returns}
+NULL exception or ok 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Capacity\+Zero 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector which we reset \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_af141088cfb071609bba1f6e455ac652e}\label{structvector__ops__s_af141088cfb071609bba1f6e455ac652e}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!resize@{resize}}
+\index{resize@{resize}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{resize}{resize}}
+{\footnotesize\ttfamily s16($\ast$ vector\+\_\+ops\+\_\+s\+::resize) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, u16 new\+\_\+size)}
+
+
+
+Resizes the capacity of the vector. Some elements can be lost. 
+
+Resizes the all capacity of the vector and probably some elements can be lost
+
+\begin{DoxyReturn}{Returns}
+NULL exception or ok 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector which we resize \\
+\hline
+{\em new\+\_\+size} & The Vector\textquotesingle{}s new size \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_aab43b01a4267c5376d2eab88187d144d}\label{structvector__ops__s_aab43b01a4267c5376d2eab88187d144d}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!softReset@{softReset}}
+\index{softReset@{softReset}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{softReset}{softReset}}
+{\footnotesize\ttfamily s16($\ast$ vector\+\_\+ops\+\_\+s\+::soft\+Reset) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector)}
+
+
+
+Soft resets vector\textquotesingle{}s data. 
+
+Soft resets of all vector data
+
+\begin{DoxyReturn}{Returns}
+NULL exception or ok 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector which we soft reset \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structvector__ops__s_adc9ce5f0f1f3e4297ea601b6653ab1b3}\label{structvector__ops__s_adc9ce5f0f1f3e4297ea601b6653ab1b3}} 
+\index{vector\_ops\_s@{vector\_ops\_s}!traverse@{traverse}}
+\index{traverse@{traverse}!vector\_ops\_s@{vector\_ops\_s}}
+\doxysubsubsection{\texorpdfstring{traverse}{traverse}}
+{\footnotesize\ttfamily s16($\ast$ vector\+\_\+ops\+\_\+s\+::traverse) (\mbox{\hyperlink{structadt__vector__s}{Vector}} $\ast$vector, void($\ast$callback)(\mbox{\hyperlink{structmemory__node__s}{Memory\+Node}} $\ast$))}
+
+
+
+Calls to a function from all elements of the vector. 
+
+We need to Calls to a function from all elements of the vector
+
+\begin{DoxyReturn}{Returns}
+Return Null exception or ok 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Vector\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Storage\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Vectorsrc\+\_\+\+NULL 
+
+KError\+Code\+\_\+\+Vector\+\_\+\+Vectorsrc\+\_\+storage\+\_\+\+NULL 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & The vector which elements are called \\
+\hline
+{\em vector\+\_\+src} & callback function to aplied on a node \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/adana/\+One\+Drive/\+Escritorio/\+IA/2pa\+\_\+ta\+\_\+camachodi/\+DS\+\_\+\+ALG\+\_\+\+AI1/include/adt\+\_\+vector.\+h\end{DoxyCompactItemize}

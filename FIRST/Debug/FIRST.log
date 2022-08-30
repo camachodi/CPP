@@ -1,0 +1,3 @@
+﻿  cpp_ex.cpp
+C:\Users\savif\Desktop\CPP\FIRST\cpp_ex.cpp(38,6): warning C4101: 'number': variable local sin referencia
+  FIRST.vcxproj -> C:\Users\savif\Desktop\CPP\FIRST\Debug\FIRST.exe
